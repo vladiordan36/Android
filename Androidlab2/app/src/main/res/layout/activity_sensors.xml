@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/sensors_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sensors_page"
+        android:textSize="35sp"/>
+    <TextView
+        android:id="@+id/accelerometer_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/acc_tag"
+        android:textSize="25sp"/>
+    <TextView
+        android:id="@+id/accelerometer_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/n_a"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/gyroscope_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gyro_tag"
+        android:textSize="25sp"/>
+    <TextView
+        android:id="@+id/gyroscope_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/n_a"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/gps_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gps_tag"
+        android:textSize="25sp"/>
+    <TextView
+        android:id="@+id/gps_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/n_a"
+        android:textSize="20sp"/>
+</LinearLayout>

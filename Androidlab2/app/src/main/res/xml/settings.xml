@@ -1,0 +1,9 @@
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SwitchPreference
+        app:key="display_text"
+        app:defaultValue="true"
+        app:title="Display selected item"/>
+
+</PreferenceScreen>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Android lab2</string>
+    <string name="settings">Settings</string>
+    <string name="landscape_mode">Landscape mode</string>
+    <string name="last_item">Last item:</string>
+    <string name="none">none</string>
+    <string name="label">Selected article:</string>
+    <string name="sensors">Sensors</string>
+    <string name="sensors_page">Sensors page</string>
+    <string name="acc_tag">Accelerometer:</string>
+    <string name="gyro_tag">Gyroscope:</string>
+    <string name="light_tag">Light sensor:</string>
+    <string name="n_a">n.a.</string>
+    <string name="gps_tag">GPS coordinates</string>
+</resources>
