@@ -71,11 +71,16 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
            Intent intent = new Intent(MainActivity.this, SettingsActivity.class);
            startActivity(intent);
            return true;
-       }else if (id == R.id.action_sensors) {
+       } else if (id == R.id.action_sensors) {
            Intent intent = new Intent(MainActivity.this, SensorsActivity.class);
            startActivity(intent);
            return true;
-       }
+       } else if (id == R.id.action_camera) {
+            Intent intent = new Intent(MainActivity.this, CameraActivity.class);
+            startActivity(intent);
+            return true;
+        }
+
        return super.onOptionsItemSelected(item);
     }
 

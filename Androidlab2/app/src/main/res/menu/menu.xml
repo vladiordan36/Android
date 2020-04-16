@@ -12,5 +12,10 @@
         android:title="@string/sensors"
         app:showAsAction="never"
         />
+    <item
+        android:id="@+id/action_camera"
+        android:title="@string/camera"
+        app:showAsAction="never"
+        />
 
 </menu>
